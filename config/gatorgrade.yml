@@ -1,0 +1,86 @@
+setup: |
+  echo "Done installing project dependencies!"
+---
+
+# perform checks on a file
+      
+- _steps/step-01.md:
+    - description: Ensure that the step-01.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in step-01.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write a minimum number of meaningful words in step-01.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+
+- _steps/step-02.md:
+    - description: Ensure that the step-02.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in step-02.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write a minimum number of meaningful words in step-02.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+
+- _steps/step-03.md:
+    - description: Ensure that the step-03.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in step-03.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write a minimum number of meaningful words in step-03.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+
+- _steps/step-04.md:
+    - description: Ensure that the step-04.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in step-04.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write a minimum number of meaningful words in step-04.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+
+- _steps/step-05.md:
+    - description: Ensure that the step-05.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in step-05.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write a minimum number of meaningful words in step-05.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+    - description: Embed audio in step-05.md
+      check: MatchFileFragment
+      options:
+        fragment: "<audio>"
+        count: 0
+        exact: true

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "INFM 590 Project"
+permalink: Project
+nav: true
+---
+
+{% for file in site.report %}
+    {{ file.content }}
+    <br>
+    <hr>
+{% endfor %}
+

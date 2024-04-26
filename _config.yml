@@ -1,0 +1,8 @@
+title: "Data Insight"
+author: "update your name in _config.yml"
+
+theme: minima
+
+collections:
+  steps:
+    output: true
