@@ -46,6 +46,10 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 
+- replace the `07.wav` with the name of your audio file
+- keep the `assets/` and make sure that the audio file is located within
+  that directory.
+
 #### Send me questions or come to office hours!
 
 [Link to office hours](https://calendar.app.google/MYV4AVsQG2fUM9Ja7)
