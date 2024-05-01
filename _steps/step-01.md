@@ -21,6 +21,7 @@ To embed an image, follow this format:
 - replace the `magnifying-glass-logo.jpeg` with the name of your image file
 - keep the `assets/` and make sure that the image file is located within
   that directory.
+- add your text
 
 If the image is online, you can follow this format:
 
